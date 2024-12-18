@@ -20,6 +20,8 @@ themeIcon.forEach((btn) => {
     }
   });
 });
+
+
 chevronDown.addEventListener("click", (e) => {
 e.currentTarget.parentElement.classList.toggle("text-orange-300");
 submenu.classList.toggle("submenu--open");
